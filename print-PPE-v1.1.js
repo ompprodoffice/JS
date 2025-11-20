@@ -11,7 +11,7 @@
           "GET",
           body
         );
-         console.log(resp);
+         // console.log(resp);
         return resp.record.attachment.value[0].fileKey;
       } catch (err) {
         console.error(err);
@@ -41,3 +41,4 @@
     });
 
 })()
+
